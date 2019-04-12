@@ -1,0 +1,9 @@
+amazon:
+  access:
+    key: AKIA4C6WZVLTTMFQK755
+    secret-key: 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
+  region: us-east-2
+  end-point:
+    url: dynamodb.us-east-2.amazonaws.com
+server:
+  port: 9001
