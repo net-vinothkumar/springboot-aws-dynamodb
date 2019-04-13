@@ -32,8 +32,8 @@ two items can have same hash key but different range key
 
 Create Employee - POST : http://localhost:9001/dynamoDb
 
-Get Employee - GET : http://localhost:9001/dynamoDb?employeeId=517f8955-05d0-44a0-836e-be4fcf4716d4&lastName=David
+Get Employee - GET : http://localhost:9001/dynamoDb?employeeId=<ID>&lastName=<NAME>
 
 Update Employee - PUT : http://localhost:9001/dynamoDb
 
-Delete Employee - DELETE : http://localhost:9001/dynamoDb/517f8955-05d0-44a0-836e-be4fcf4716d4/David
+Delete Employee - DELETE : http://localhost:9001/dynamoDb/<ID>/<NAME>
