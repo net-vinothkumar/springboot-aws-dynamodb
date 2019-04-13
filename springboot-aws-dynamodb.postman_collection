@@ -1,0 +1,141 @@
+{
+	"id": "dee9237f-691c-7613-e37b-7967b85c4ccc",
+	"name": "springboot-aws-dynamodb",
+	"description": "springboot aws dynamodb demo application",
+	"order": [
+		"9582a1f4-3ef1-1613-933f-52ea38807746",
+		"26ac5e2f-590f-a985-b5ff-9bd3774170c0",
+		"e1fb8870-9f64-4912-c89c-7f0e0152351d",
+		"25733d88-3b14-6d68-0e8f-2821bec875c7"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1555180101275,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "25733d88-3b14-6d68-0e8f-2821bec875c7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9001/dynamoDb",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "dee9237f-691c-7613-e37b-7967b85c4ccc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9001/dynamoDb",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1555180158013,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\":\"Mani\",\n\t\"lastName\":\"David\",\n\t\"address\": {\n\t\t\"addressLine1\":\"1234A\",\n\t    \"addressLine2\":\"VJL street\",\n\t    \"state\":\"TN\",\n\t    \"city\":\"Chennai\",\n\t    \"zipCode\":\"640083\"\n\t},\n\t\"age\":\"20\"\n}"
+		},
+		{
+			"id": "26ac5e2f-590f-a985-b5ff-9bd3774170c0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9001/dynamoDb",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "dee9237f-691c-7613-e37b-7967b85c4ccc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9001/dynamoDb",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1555180144686,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"employeeId\":\"517f8955-05d0-44a0-836e-be4fcf4716d4\",\n\t\"firstName\":\"Mani\",\n\t\"lastName\":\"David\",\n\t\"address\": {\n\t\t\"addressLine1\":\"1234A\",\n\t    \"addressLine2\":\"VJL street\",\n\t    \"state\":\"TN\",\n\t    \"city\":\"Chennai\",\n\t    \"zipCode\":\"640083\"\n\t},\n\t\"age\":\"25\"\n}"
+		},
+		{
+			"id": "9582a1f4-3ef1-1613-933f-52ea38807746",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9001/dynamoDb/517f8955-05d0-44a0-836e-be4fcf4716d4/David",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "dee9237f-691c-7613-e37b-7967b85c4ccc",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9001/dynamoDb/517f8955-05d0-44a0-836e-be4fcf4716d4/David",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1555180114692,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e1fb8870-9f64-4912-c89c-7f0e0152351d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9001/dynamoDb?employeeId=517f8955-05d0-44a0-836e-be4fcf4716d4&lastName=David",
+			"queryParams": [
+				{
+					"key": "employeeId",
+					"value": "517f8955-05d0-44a0-836e-be4fcf4716d4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "lastName",
+					"value": "David",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "dee9237f-691c-7613-e37b-7967b85c4ccc",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9001/dynamoDb?employeeId=517f8955-05d0-44a0-836e-be4fcf4716d4&lastName=David",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1555180149366,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
