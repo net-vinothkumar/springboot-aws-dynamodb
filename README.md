@@ -26,6 +26,10 @@ this is a combination of hash key and a range key.
 two items can have same hash key but different range key
 ```
 
+DynamoDBMapper is a Object mapper for domain-object interaction with DynamoDB.
+
+Create a AWS account to access the aws console and create a table in DynamoDB
+
 <img width="1198" alt="Screen Shot 2019-04-13 at 17 59 14" src="https://user-images.githubusercontent.com/30971809/56082191-fccb0b00-5e15-11e9-8d79-9d533ccda9d3.png">
 
 # CRUD Operations from Spring Boot Application to AWS DynamoDB :
