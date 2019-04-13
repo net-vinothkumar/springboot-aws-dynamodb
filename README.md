@@ -29,7 +29,11 @@ two items can have same hash key but different range key
 <img width="1198" alt="Screen Shot 2019-04-13 at 17 59 14" src="https://user-images.githubusercontent.com/30971809/56082191-fccb0b00-5e15-11e9-8d79-9d533ccda9d3.png">
 
 # CRUD Operations from Spring Boot Application to AWS DynamoDB :
+
 Create Employee - POST : http://localhost:9001/dynamoDb
+
 Get Employee - GET : http://localhost:9001/dynamoDb?employeeId=517f8955-05d0-44a0-836e-be4fcf4716d4&lastName=David
+
 Update Employee - PUT : http://localhost:9001/dynamoDb
+
 Delete Employee - DELETE : http://localhost:9001/dynamoDb/517f8955-05d0-44a0-836e-be4fcf4716d4/David
