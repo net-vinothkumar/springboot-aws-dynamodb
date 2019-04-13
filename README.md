@@ -13,4 +13,17 @@ Amazon DynamoDB provides on-demand backup capability. It allows you to create fu
 ### High Availability and Durability
 DynamoDB automatically spreads the data and traffic for your tables over a sufficient number of servers to handle your throughput and storage requirements, while maintaining consistent and fast performance.
 
+### DynamoDB supports two types of primary key attributes
+
+``` 
+single attribute - Hash Key/Partition Key
+this hash key is used to calculate the hash value which is then used to determine the physical 
+location where the data will be stored
+no two keys can have same values in single attribute 
+
+composite attribute - Hash Key + Range Key/Sort Key
+this is a combination of hash key and a range key.
+two items can have same hash key but different range key
+```
+
 <img width="1198" alt="Screen Shot 2019-04-13 at 17 59 14" src="https://user-images.githubusercontent.com/30971809/56082191-fccb0b00-5e15-11e9-8d79-9d533ccda9d3.png">
