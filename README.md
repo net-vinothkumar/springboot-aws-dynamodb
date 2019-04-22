@@ -11,6 +11,9 @@ You can scale up or scale down your tables' throughput capacity without downtime
 
 Amazon DynamoDB provides on-demand backup capability. It allows you to create full backups of your tables for long-term retention and archival for regulatory compliance needs.
 
+### Pricing
+DynamoDB charges per GB of disk space a table consumes. The first 25 GB consumed per month is free, and prices start at $0.25 per GB-month thereafter.
+
 ### High Availability and Durability
 DynamoDB automatically spreads the data and traffic for your tables over a sufficient number of servers to handle your throughput and storage requirements, while maintaining consistent and fast performance.
 
